@@ -11,6 +11,7 @@ Package.describe({
 
 });
 
+
 // ----------------------------------------------------
 // use
 Package.onUse(function(api) {
@@ -19,6 +20,13 @@ Package.onUse(function(api) {
   // meteor api
   api.versionsFrom('1.1.0.2');
 
+
+  // ----------------------------------------------------
+  // common files
+  api.addFiles([
+  ], ['server', 'client']);
+  
+  
   // ----------------------------------------------------
   // server
   api.addFiles([
@@ -29,6 +37,7 @@ Package.onUse(function(api) {
     'dburles:mongo-collection-instances@0.3.3',
     'underscore'
   ], ['server']);
+
 
   // ----------------------------------------------------
   // client
@@ -45,8 +54,10 @@ Package.onUse(function(api) {
   
 });
 
+
 // ----------------------------------------------------
 // tests
 Package.onTest(function(api) {
   // TBD
 });
+
