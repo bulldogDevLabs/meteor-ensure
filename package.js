@@ -16,6 +16,7 @@ Package.onUse(function(api) {
   api.use([
     'matb33:collection-hooks@0.7.11',
     'dburles:mongo-collection-instances@0.3.3',
+    'iron:router@1.0.7'
     'underscore'
   ]);
   
