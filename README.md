@@ -15,8 +15,6 @@ Meteor package to monitor index and ensure that they are created in a semi-sane 
 meteor add bulldogDevLabs:meteor-ensure
 ```
 
-## Use Case
-
 ## Description
 
 If your like me you put off creating your indexes because you knew you had to but didn't get around to doing it.
